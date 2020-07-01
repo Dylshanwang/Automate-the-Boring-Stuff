@@ -21,5 +21,5 @@ def collatz(initial_number):
 
 counter = 1
 print("Enter an integer")
-initial_number = input()
-collatz(initial_number)
+integer = input()
+collatz(integer)
