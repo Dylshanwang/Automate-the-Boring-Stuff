@@ -13,7 +13,7 @@ def collatz(initial_number):
         number = int(initial_number)
         while number != 1:
             if number % 2 == 0:
-                number = number / 2
+                number = number // 2
                 print(str(number))
                 counter += 1
             else:
